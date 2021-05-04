@@ -16,8 +16,18 @@ img {
     height: 1000px;
 };
 .section {
-    background-color: palevioletred;
+    background-color:#FFC0CB;
+    
 }
 .footer {
-    background-color: #FFC0CB;
+    background-color: #0c0b00;
+}
+h2 {
+    color: white;
+}
+h4 {
+    color: white;
+}
+.fa-3x {
+    color: white;
 }
