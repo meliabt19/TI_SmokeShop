@@ -1987,7 +1987,8 @@ ul.icons {
     -webkit-transition-delay: 1.25s;
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
-    background: #111111;
+    background: #FFC0CB;
+    background-image: url("industrious-master/images/TI_Sun");
     content: '';
     display: block;
     height: 100%;
@@ -2504,7 +2505,7 @@ body {
   -ms-justify-content: space-between;
   justify-content: space-between;
   background: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  color: #FFC0CB(255, 255, 255, 0.5);
   cursor: default;
   height: 3.25rem;
   left: 0;
