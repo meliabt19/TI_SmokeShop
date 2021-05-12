@@ -1,4 +1,4 @@
-@import url(font-awesome.min.css);
+@import url(font-awesome.min.css); 
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,300,400,500,600");
 /*
 	Industrious by TEMPLATED
@@ -49,6 +49,13 @@ section, summary, time, mark, audio, video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline; }
+
+  h1 { font-family: Raleway; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+  h3 { font-family: Raleway; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+  p { font-family: Raleway; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } 
+  blockquote { font-family: Raleway; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } 
+  pre { font-family: Raleway; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -2532,7 +2539,7 @@ body {
       color:#ffffff }
     #header > nav > a[href="#menu"] {
       text-decoration: none;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+      -webkit-tap-highlight-color: #FFC0CB(0, 0, 0, 0); }
       #header > nav > a[href="#menu"]:before {
         -moz-osx-font-smoothing: grayscale;
         -webkit-font-smoothing: antialiased;
@@ -2763,8 +2770,8 @@ body {
 
 /* Menu */
 #menu {
-  background-color: #111111;
-  color: rgba(255, 255, 255, 0.5);
+  background-color:white;
+  color: #FFC0CB;
   -moz-transform: translateX(20rem);
   -webkit-transform: translateX(20rem);
   -ms-transform: translateX(20rem);
@@ -2782,7 +2789,7 @@ body {
   position: fixed;
   right: 0;
   top: 0;
-  visibility: hidden;
+  visibility: visible;
   width: 20rem;
   z-index: 10002; }
   #menu input, #menu select, #menu textarea {
@@ -2862,13 +2869,9 @@ body {
           border-top: 0; }
   #menu .close {
     text-decoration: none;
-    -moz-transition: color 0.2s ease-in-out;
-    -webkit-transition: color 0.2s ease-in-out;
-    -ms-transition: color 0.2s ease-in-out;
-    transition: color 0.2s ease-in-out;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: #FFC0CB;
     border: 0;
-    color: rgba(255, 255, 255, 0.4);
+    color: #FFC0CB;
     cursor: pointer;
     display: block;
     height: 3.25rem;
