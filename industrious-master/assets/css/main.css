@@ -2665,8 +2665,8 @@ body {
       #menu input[type="reset"]:hover:active,
       #menu input[type="button"]:hover:active,
       #menu button:hover:active,
-      #menu .button:hover:active {
-        background-color: rgba(206, 27, 40, 0.25); }
+      #menu .button:hover:active,
+       
     #menu input[type="submit"].primary,
     #menu input[type="reset"].primary,
     #menu input[type="button"].primary,
@@ -2746,5 +2746,5 @@ body.is-menu-visible #menu {
   -webkit-transform: translateX(0);
   -ms-transform: translateX(0);
   transform: translateX(0);
-  box-shadow: 0 0 1.5rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 1.5rem 0  rgba(0, 0, 0, 0.2);
   visibility: visible; }
