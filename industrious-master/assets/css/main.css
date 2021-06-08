@@ -2351,8 +2351,8 @@ body {
   -webkit-justify-content: space-between;
   -ms-justify-content: space-between;
   justify-content: space-between;
-  background: #111111;
-  color: #FFC0CB(255, 255, 255, 0.5);
+  background: black;
+  color: #FFC0CB;
   cursor: default;
   height: 3.25rem;
   left: 0;
