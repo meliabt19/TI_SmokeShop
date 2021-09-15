@@ -1624,6 +1624,10 @@ ul.icons {
     width: 100%; }
     .image.main img {
       width: 100%; }
+  .responsive {
+    width: 100%;
+    height: auto; }
+
       
 
 /* Wrapper */
